@@ -1,0 +1,20 @@
+# remove modify digits from file name
+# author - sandeep
+# 28 July 2017
+# study Python
+
+import os
+def rename_files() :
+   #finds file name in folder.
+   file_list = os.listdir(r"E:\programing\python\python project\pr1\test")
+   my_current_dir = os.getcwd()
+   #print current directory and change dir
+   print(my_current_dir)
+   print(file_list)
+   #change filename
+   os.chdir(r"E:\programing\python\python project\pr1\test")
+   for file_name in file_list:
+        os.rename(file_name, file_name.translate(None, "0123456789"))
+    
+rename_files()
+print("sucesfully renamed")
