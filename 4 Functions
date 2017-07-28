@@ -1,0 +1,8 @@
+#with Functions we can write programs in  blocks / module, and call multiple times
+### Create Function
+def my_function():
+    print("Hello From My Function!")
+    
+### call function
+
+
