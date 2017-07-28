@@ -1,0 +1,33 @@
+
+print("Hello")
+
+#################################################################
+#arithmatic
+
+count = 10
+print(count)
+
+sum = 10 + 5
+print(sum)
+
+difference = 10 - 5
+print(difference)
+
+Multiple = 10 * 5
+print(Multiple)
+
+divide  = 10 / 2
+print(divide)
+#################################################################
+icrement by 1
+count = count + 1
+count += 1
+
+decriment by 1
+count = count - 1
+count -= 1
+#################################################################
+
+
+
+
