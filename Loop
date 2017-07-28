@@ -47,7 +47,7 @@ else:
 ###########################################################
 ###########################################################  
 
-"break" and "continue" statements
+"break" , "continue"  and "pass" statements
 
  if marks>= 70:
    print ("Congrats you have passed with distinction")
@@ -86,6 +86,29 @@ else:
    B
    D # --> Only C missing, as the loop continues
    E
+   
+   ## "pass"
+   #The pass statement is helpful when you have created a code block but it is no longer required.
+   #Suppose we have a loop or a function that is not implemented yet, but we want to implement it in the future.
+   
+   eg.
+ #### pass is just a dummy for statment to be added later in loop.
+   sequence = {'p', 'a', 's', 's'}
+    for val in sequence:
+       pass
+  #### test function.    
+    def function(test):
+    pass
+    
+  #### test class.  
+    class TEST:
+    pass
+
+
+    
+    
+   
+   
    
    =========================================================
    
