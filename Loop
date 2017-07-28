@@ -17,3 +17,76 @@ while count < 10:
     
 ###########################################################
 ###########################################################
+
+# if else
+if marks >= 35:
+   print ("Congrats you have passed")
+else:
+   print ("Beter Luck Next time")
+   
+###########################################################
+###########################################################  
+
+#elif 
+
+if marks>= 70:
+   print ("Congrats you have passed with distinction")
+   break
+elif marks>= 60:
+   print ("Congrats you have passed with First class")
+   break
+elif marks>= 50:
+   print ("Congrats you have passed with Second Class")
+   break
+elif marks>= 35:
+   print ("Congrats you have passed with PASS Class")
+   break
+else:
+   print ("Better Luck Next time")
+   
+###########################################################
+###########################################################  
+
+"break" and "continue" statements
+
+ if marks>= 70:
+   print ("Congrats you have passed with distinction")
+   break
+elif marks>= 60:
+   print ("Congrats you have passed with First class")
+   break
+elif marks>= 50:
+   print ("Congrats you have passed with Second Class")
+   break
+elif marks>= 35:
+   print ("Congrats you have passed with PASS Class")
+   break
+else:
+   print ("Better Luck Next time")
+   
+======================================================
+   #####Break
+   for letter in 'ABCDE':     
+   if letter == 'C':
+      break
+   print 'Current Letter :', letter
+   
+   output
+   A
+   B #-->no output after B, as the loop Breaks
+   
+   #####continue
+   for letter in 'ABCDE':     
+   if letter == 'C':
+      continue
+   print 'Current Letter :', letter
+   
+   output
+   A
+   B
+   D # --> Only C missing, as the loop continues
+   E
+   
+   =========================================================
+   
+   
