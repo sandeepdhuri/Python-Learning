@@ -1,8 +1,32 @@
+##########################################
 #with Functions we can write programs in  blocks / module, and call multiple times
 ### Create Function
 def my_function():
-    print("Hello From My Function!")
+    print("This is a TEST Function!")
     
 ### call function
+   my_function()
+   
+##########################################
 
+#Pass Value to a function.
 
+username = "Sandeep"
+greeting = "HappyBirthday"
+
+def my_function_with_args(username, greeting):
+    print("Hello, %s. I wish you %s"%(username, greeting))
+
+my_function_with_args(username, greeting)
+
+###########################################
+# passing vlaue 8 and 10 to function and it returns 18 
+#Return Value from  function.
+
+def add(A, B):
+    return A + B
+
+result = add(10, 8)
+print(result)
+
+###########################################
